@@ -88,7 +88,7 @@ The following are the MSRs queried.
 
 ![image](https://github.com/tlavette/cmpe283assignment-1/assets/33330609/d5a1a331-d3a5-47f0-b5ec-9e130e61a6c6)
 
-
+The above steps were repeated for each MSR Model (modify cmpe283-1.c) and save the original MSR files renamed respectively.
 
 # Debugging
 The project does come with some challenges.  The following are just a few of issues encountered and the solution utilized.
@@ -121,7 +121,7 @@ make[3]: *** Deleting file 'arch/x86/boot/compressed/vmlinux.bin.lz4'
 make[3]: *** Waiting for unfinished jobs....
 ![image](https://github.com/tlavette/cmpe283assignment-1/assets/33330609/ac1826d7-4f1d-4009-bd73-9ad34879919c)
 
-Solution: Performed a sudoapt-get install liblz4-tool
+Solution: Performed a sudo apt-get install liblz4-tool
 
 
 
