@@ -7,25 +7,62 @@ In this project, we will create a Linux Kerne module to query specific MSRs and 
 # Team Members
 The team consisted of Puja Kumari(017460157) and Tonja Jean.
 
-# Detailed Document with the all the steps followed is included in the github repo.
+# Detailed Document with all the steps followed is included in the GitHub repo.
 
 **Dynamic Teamwork**
 The first assignment did present several unexpected issues so the original divide of tasks did overlap as we had to resolve issues ranging from finding the best GCP VM Service, building the VM with the needed storage, and creating the kernel. Overall the project was divided according to need and we paired on building and resolving issues presented. The general divide of the project was as follows:
 
-Created the environment and performed relative debugging to meet the VM requirements. - Tonja Jean
-* IA32_VMX_PINBASED_CTLS      0x481
+The first assignment did present several unexpected issues, so the original divide of tasks did overlap as we had to resolve issues ranging from finding the best GCP VM Service, building the VM with the needed storage, and creating the kernel. Overall, the project was divided according to need and we paired on building and resolving issues presented. The general divide of the project was as follows:
 
-* IA32_VMX_PROCBASED_CTLS     0x482
+**Tonja Jean**
 
-* IA32_VMX_PROCBASED_CTLS2    0x48B
+Researched system options from various platforms and hardware.
+
+Perform a collaborative review of the requirements to determine the resources needed to complete.
+
+Created an instance from the Google Cloud Platform and performed system requirements for memory, CPU, and nested capabilities.
+
+Installed Linux build with needed source code, libraries, and components.
+
+Performed system updates including the .config boot file.
+
+Modified cmpe283-1.c  file and performed the build for the following:
+
+  IA32_VMX_PINBASED_CTLS 0x481
+  
+o	IA32_VMX_PROCBASED_CTLS 0x482
+
+o	IA32_VMX_PROCBASED_CTLS2 0x48B
+
+Performed test and debug collaboration.
+Collected and compiled documentation.
+Performed final code refactoring and compilation.
+
+**Puja Kumari**
+
+Researched system options from various platforms and hardware.
+
+Perform a collaborative review of the requirements to determine the resources needed to complete.
+
+Created an instance from the Google Cloud Platform and performed system requirements for memory, CPU, and nested capabilities.
+
+Installed Linux build with needed source code, libraries, and components.
+
+Modified cmpe283-1.c file and performed the build for the following:
 
 
-Modified and debugged source code for 3 of the MSR's.  Completed kernel load triage, and performed code debugging - Puja Kumari
-* IA32_VMX_EXIT_CTLS          0x483
+o	IA32_VMX_EXIT_CTLS 0x483
 
-* IA32_VMX_ENTRY_CTLS         0x484
+o	IA32_VMX_ENTRY_CTLS 0x484
 
-* IA32_VMX_PROCBASED_CTLS3    0x492
+o	IA32_VMX_PROCBASED_CTLS3 0x492
+
+Performed test and debug collaboration.
+
+Performed final code refactoring and compilation.
+
+Collected and compiled documentation.
+
 
 
 
@@ -77,6 +114,11 @@ The following are the MSRs queried.
 * IA32_VMX_ENTRY_CTLS         0x484
 
 * IA32_VMX_PROCBASED_CTLS3    0x492
+
+
+For each the cmpe283-1.c file had to be modified with the MSR and the Index
+
+
 
 # Build
 
