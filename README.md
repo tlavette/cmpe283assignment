@@ -5,7 +5,7 @@ December 17, 2023
 In this project, we will create a Linux Kerne module to query specific MSRs and report the features discovered for each. 
 
 # Team Members
-The team consisted of Puja Kumari and Tonja Jean.
+The team consisted of Puja Kumari(017460157) and Tonja Jean.
 
 **Dynamic Teamwork**
 The first assignment did present several unexpected issues so the original divide of tasks did overlap as we had to resolve issues ranging from finding the best GCP VM Service, building the VM with the needed storage, and creating the kernel. Overall the project was divided according to need and we paired on building and resolving issues presented. The general divide of the project was as follows:
