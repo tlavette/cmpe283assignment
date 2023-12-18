@@ -42,7 +42,7 @@ Boot Disk:  debian-11-bullseye-v20231115  200G
 
 The user will need to load libraries and configurations needed to establish basic functionality of Linux environment starting with an apt-update.
 
-# Built the Kernel from the 
+# Built the Kernel from the cpuid.c
 * Ensure the following files are located on the linux directory:  
 cpuid.c
 Makefile
